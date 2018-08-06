@@ -1,10 +1,11 @@
 // Add your JavaScript
 $(document).ready(function() {
-  $('.box-2').delay('5000').fadeIn('slow')
+  $('.box-2').delay('4000').fadeIn('slow')
 
  
   
 });
+//SHow Restaurants
 function showRestaurants(restaurantsArray) {
   $('#img-restaurant').html('');
 
@@ -17,6 +18,7 @@ function showRestaurants(restaurantsArray) {
       .appendTo('#img-restaurant');
   })
 }
+//Modal
 function openModal(event) {
   var restaurantName = $(event.target).attr('id');
 
@@ -39,8 +41,8 @@ function openModal(event) {
   
     showRestaurants(restaurantes);
   }
-
-  function initialiseSearch() {
+//searchRestaurants
+  function search() {
     $('.form-control').keyup(function() {
       var search = $(this).val().toLowerCase();
       
@@ -63,7 +65,10 @@ function openModal(event) {
       showRestaurants(filteredRestaurants);
     });
   }
-  
+  $(document).ready(function() {
+    showRestaurants(restaurantes);
+   search();
+  });
 //map  
 function initMap() {
  
@@ -89,9 +94,7 @@ function initMap() {
       });
     });
   }
-  $(document).ready(function() {
-    showRestaurants(restaurantes);
-    initialiseSearch();
-  });
+
+
   
  
