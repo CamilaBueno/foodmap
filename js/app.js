@@ -1,11 +1,11 @@
 // Add your JavaScript
 $(document).ready(function() {
-  $('.box-2').delay('4000').fadeIn('slow')
+  $('.box-2').delay('3000').fadeIn('slow')
 
  
   
 });
-//SHow Restaurants
+//Show Restaurants
 function showRestaurants(restaurantsArray) {
   $('#img-restaurant').html('');
 

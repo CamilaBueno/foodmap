@@ -37,7 +37,7 @@ const restaurantes = [
     "latitude": -23.5587677,
     "longitude": -46.66278650000004,
     "description": "A traditionally decorated Italian restaurant with checkered tablecloths & sports teams' flags.",
-    "type": "italiana"
+    "type": "italiano"
   },
   {
     "name": "Pop Vegan Food",
@@ -45,7 +45,7 @@ const restaurantes = [
     "latitude": -23.5539487,
     "longitude": -46.6576778,
     "description": "Restaurante vegano em São Paulo, na região da Augusta. Comida boa com preço justo e pizzas irresistíveis. Democratizando a alimentação vegana.",
-    "type": "vegana"
+    "type": "vegano"
   },
   {
     "name": "Loving Hut Jardins",
@@ -53,7 +53,7 @@ const restaurantes = [
     "latitude": -23.5597267,
     "longitude": -46.6639738,
     "description": "Outpost of a vegan counter-serve chain with Asian-accented  menus that vary by location.",
-    "type": "vegana"
+    "type": "vegano"
   },
   {
     "name": "Aji-To",
@@ -61,7 +61,7 @@ const restaurantes = [
     "latitude": -23.5560888,
     "longitude": -46.657931700000006,
     "description": "Refined restaurant with artistic Japanese décor, serving  temaki & other delicacies.",
-    "type": "japonesa"
+    "type": "japonês"
   },
   {
     "name": "Sushimasa",
@@ -69,6 +69,6 @@ const restaurantes = [
     "latitude": -23.5600095,
     "longitude": -46.66369069999996,
     "description": "This modern spot offers Japanese fare, with a variety of  fish, a buffet & all-you-can-eat options.",
-    "type": "japonesa"
+    "type": "japonês"
   }
 ];
