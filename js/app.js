@@ -2,7 +2,6 @@
 $(document).ready(function () {
   $('.box-2').delay('3000').fadeIn('slow')
 });
-//Show Restaurants
 function showRestaurants(restaurantsArray) {
   $('#img-restaurant').html('');
   $.each(restaurantsArray, function (index, restaurantes) {
@@ -14,7 +13,6 @@ function showRestaurants(restaurantsArray) {
       .appendTo('#img-restaurant');
   })
 }
-//Modal
 function openModal(event) {
   var restaurantName = $(event.target).attr('id');
   var restaurantData =
@@ -34,7 +32,6 @@ function openModal(event) {
   $('.form-control').val('');
   showRestaurants(restaurantes);
 }
-//SearchRestaurants
 function search() {
   $('.form-control').keyup(function () {
     var search = $(this).val().toLowerCase();
@@ -57,7 +54,6 @@ $(document).ready(function () {
   showRestaurants(restaurantes);
   search();
 });
-//map  
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
@@ -70,7 +66,6 @@ function initMap() {
       type: 'info'
     }
   });
-  // Markers.
   features.forEach(function (feature) {
     var marker = new google.maps.Marker({
       position: feature.position,
