@@ -12,7 +12,7 @@ const restaurantes = [
     "image": "./assets/arabesco.jpg",
     "latitude": -23.5607625,
     "longitude": -46.65784689999998,
-    "description": "Arabic fare for corporate events, from salad to desserts, in a charming setting with a relaxed vibe.",
+    "description": "Iguarias da cozinha árabe, de saladas às sobremesas, ambiente charmoso para negócios e clima descontraído.",
     "type": "arabe"
   },
   {
@@ -20,7 +20,7 @@ const restaurantes = [
     "image": "./assets/ragazzo.png",
     "latitude": -23.5588598,
     "longitude": -46.66152740000001,
-    "description": "A chain of casual Italian cantinas that serves an array of pastas, pizzas, snacks & ice cream.",
+    "description": "Uma rede de cantinas italianas casuais que serve uma variedade de massas, pizzas, lanches e sorvetes.",
     "type": "fast food"
   },
   {
@@ -28,7 +28,7 @@ const restaurantes = [
     "image": "./assets/mcdonalds.png",
     "latitude": -23.558783,
     "longitude": -46.66130229999999,
-    "description": "Classic, long-running fast-food chain known for its burgers, fries & shakes.",
+    "description": "Rede de fast-food clássica e de longa duração, conhecida por seus hambúrgueres, batatas fritas e milk-shakes.",
     "type": "fast food"
   },
   {
@@ -36,7 +36,7 @@ const restaurantes = [
     "image": "./assets/cantina.png",
     "latitude": -23.5587677,
     "longitude": -46.66278650000004,
-    "description": "A traditionally decorated Italian restaurant with checkered tablecloths & sports teams' flags.",
+    "description": "Restaurante de cozinha tradicional italiana, o ambiente tem bandeiras de times penduradas e toalhas xadrezes.",
     "type": "italiano"
   },
   {
@@ -52,7 +52,7 @@ const restaurantes = [
     "image": "./assets/loving.jpg",
     "latitude": -23.5597267,
     "longitude": -46.6639738,
-    "description": "Outpost of a vegan counter-serve chain with Asian-accented  menus that vary by location.",
+    "description": "Rede de restaurantes veganos com atendimento no balcão e menu com inspiraçã asiática que varia por local.",
     "type": "vegano"
   },
   {
@@ -60,7 +60,7 @@ const restaurantes = [
     "image": "./assets/aji-to.jpg",
     "latitude": -23.5560888,
     "longitude": -46.657931700000006,
-    "description": "Refined restaurant with artistic Japanese décor, serving  temaki & other delicacies.",
+    "description": "Diversos temakis, sushis e pratos quentes, em espaço descolado, com opção de cardápio, buffet e delivery.",
     "type": "japonês"
   },
   {
@@ -68,7 +68,7 @@ const restaurantes = [
     "image": "./assets/sushimasa.png",
     "latitude": -23.5600095,
     "longitude": -46.66369069999996,
-    "description": "This modern spot offers Japanese fare, with a variety of  fish, a buffet & all-you-can-eat options.",
+    "description": "O menu japonês oferece variedade de peixes, buffet oriental e rodízio em ambiente moderno com parede rústica.",
     "type": "japonês"
   }
 ];
